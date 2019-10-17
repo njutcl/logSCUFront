@@ -1,0 +1,54 @@
+<!--pages/ershuojiaoyi/ershuojiaoyi.wxml-->
+<view class="page">
+<view>
+ <view><image  style="width:45%; height: 150px; margin:8px;"src="{{ers1}}"></image><image  style="width: 45%; height: 150px; margin:8px;"src="{{ers2}}"></image>
+ </view>
+ <view>
+<text class="ziti1">红色连衣裙</text><text class="ziti1">¥100</text>
+<text class="ziti2">黄色伤不起T恤</text><text class="ziti1">¥50</text>
+ </view>
+</view>
+
+<view>
+ <view><image  style="width:45%; height: 150px; margin:8px;"src="{{ers3}}"></image><image style="width:45%; height: 150px; margin:8px;"src="{{ers4}}"></image>
+ </view>
+ <view>
+<text class="ziti1">红色连衣裙</text><text class="ziti1">¥100</text>
+<text class="ziti2">黄色伤不起T恤</text><text class="ziti1">¥50</text>
+ </view>
+</view>
+
+<view>
+ <view><image  style="width:45%; height: 150px; margin:8px;"src="{{ers5}}"></image><image  style="width:45%; height: 150px; margin:8px;"src="{{ers6}}"></image>
+ </view>
+ <view>
+<text class="ziti1">红色连衣裙</text><text class="ziti1">¥100</text>
+<text class="ziti2">黄色伤不起T恤</text><text class="ziti1">¥50</text>
+ </view>
+</view>
+
+
+<view>
+ <view><image  style="width:45%; height: 150px; margin:8px;"src="{{ers7}}"></image><image  style="width:45%; height: 150px; margin:8px;"src="{{ers8}}"></image>
+ </view>
+ <view>
+<text class="ziti1">红色连衣裙</text><text class="ziti1">¥100</text>
+<text class="ziti2">黄色伤不起T恤</text><text class="ziti1">¥50</text>
+ </view>
+</view>
+
+
+<view>
+ <view><image style="width:45%; height: 150px; margin:8px;"src="{{ers9}}"></image><image  style="width:45%; height: 150px; margin:8px;"src="{{ers10}}"></image>
+ </view>
+ <view>
+<text class="ziti1">红色连衣裙</text><text class="ziti1">¥100</text>
+<text class="ziti2">黄色伤不起T恤</text><text class="ziti1">¥50</text>
+ </view>
+</view>
+
+
+
+
+
+</view>

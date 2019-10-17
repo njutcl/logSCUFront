@@ -1,0 +1,8 @@
+<!--pages/dingdan/dingdan.wxml-->
+<view class="page">
+<view class="juxing"><text class="ziti1">历史订单</text></view>
+<view class="juxing"><text class="ziti1">进行中订单</text></view>
+<view class="juxing"><text class="ziti1">待评价订单</text></view>
+<view class="juxing"><text class="ziti1">异常订单</text></view>
+</view>
+
