@@ -1,0 +1,28 @@
+<!--pages/shouye/shouye.wxml-->
+<!-- 首页的轮播图 -->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="{{imgUrls}}">
+    <swiper-item>
+
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+<!-- 分类 -->
+<view class='fenlei'>
+    <view class='leibie fenlei-代取快递' >
+      <image src='../../image/fenlei/fetch.png' bindtap="daiqukuaidi"></image>
+      <view >代取快递</view>
+    </view>
+    <view class='leibie fenlei-跑腿服务' bindtap="topaotui">
+      <image src='../../image/fenlei/express.png'></image>
+      <view>跑腿服务</view>
+    </view>
+    <view class='leibie fenlei-二手交易' bindtap="toershoujiaoyi">
+      <image src='../../image/fenlei/second-hand.png'></image>
+      <view>二手交易</view>
+    </view>
+ 
+</view>
+<view class="page"><view class="title">欢迎您使用logSCU的服务, 我们将尽我们所能为您提供最佳的服务和体验。</view></view>
+<view class="page1" bindtap="toquestion">常见问题</view>

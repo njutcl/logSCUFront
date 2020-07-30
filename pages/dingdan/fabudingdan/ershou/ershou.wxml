@@ -1,0 +1,77 @@
+<!--pages/dingdan/fabudingdan/ershou/ershou.wxml-->
+<!--pages/dingdan/fabu/dabu.wxml-->
+<view class='send-container'>
+  <form bindsubmit="formSubmit">
+    <scroll-view scroll-y="{{true}}" style="height:{{scrollHeight}}px">
+      <view class='send-list send-listPart0'>
+        <view class='send-infomation'>
+          <view class='send-text send-text0'>校区</view>
+          <view class='send-line send-line0'></view>
+          <view class='send-input send-input0'>
+            <picker bindchange="bindPickerChange1" value="{{Ocampus[index1]}}" range="{{Ocampus}}" name='xiaoqu'>
+              <view>
+                {{Ocampus[index1]}}
+              </view>
+            </picker> 
+          </view>
+        </view>
+      </view>
+      <view class='send-list send-listPart2'>
+        <view class='send-infomation'>
+          <view class='send-text send-text2'>物品分类</view>
+          <view class='send-line send-line2'></view>
+          <view class='send-input send-input2'>
+            <picker bindchange="bindPickerChange2" value="{{Ogoods_kind[index2]}}" range="{{Ogoods_kind}}" name='Ogoods_kind'>
+              <view>
+                {{Ogoods_kind[index2]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      
+      <view class='send-list send-listPart4'>
+        <view class='send-infomation'>
+          <view class='send-text send-text4'>地址</view>
+          <view class='send-line send-line4'></view>
+          <view class='send-input send-input4'>
+            <input class='longInput' placeholder="西园七舍" placeholder-style='color:#bf9df1' type='text' maxlength='15' name='received_pos'></input>
+          </view>
+        </view>
+      </view>
+     
+
+      <view class='send-list send-listPart7'>
+        <view class='send-infomation'>
+          <view class='send-text send-text7'>物品重量</view>
+          <view class='send-line send-line7'></view>
+          <view class='send-input send-input7'>
+            <input class='shortInput' placeholder="kg" placeholder-style='color:#87cefa' type='digit' maxlength='5' name='weight'></input>千克
+          </view>
+        </view>
+      </view>
+      <view class='send-list send-listPart3'>
+        <view class='send-infomation'>
+          <view class='send-text send-text3'>定价</view>
+          <view class='send-line send-line3'></view>
+          <view class='send-input send-input3'>
+            <input class='shortInput' placeholder="M" placeholder-style='color:#b3adad' type='digit' maxlength='5' name='money'></input>元</view>
+        </view>
+      </view>
+      <view class='send-list send-listPart1'>
+        <view class='send-infomation'>
+          <view class='send-text send-text1'>截止时间</view>
+          <view class='send-line send-line1'></view>
+          <view class='send-input send-input1'>
+            <input class='shortInput' placeholder="N" placeholder-style='color:#98d8d4' type='digit' maxlength='5' name='expireTime'></input>小时</view>
+        </view>
+      </view>
+      <view class='send-largeList send-listPart6'>
+        <view class='send-textarea'>
+         <view class='send-text send-text3'>商品描述：</view> <textarea name='goods_introduction' placeholder="" maxlength='300'></textarea>
+        </view>
+      </view>
+    </scroll-view>
+    <button class='btn' form-type="submit" >确认</button>
+  </form>
+</view>

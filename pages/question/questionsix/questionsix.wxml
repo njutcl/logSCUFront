@@ -1,0 +1,11 @@
+<!--pages/question/questionsix/questionsix.wxml--><!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：如何修改订单？</text>
+        <text class="notify-title">　　在订单管理中找到待修改订单，取消该订单，重新发布信息正确的订单。</text>
+      </view>
+    </view>
+
+

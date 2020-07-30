@@ -1,15 +1,25 @@
-// pages/daiqukuaidi/daiqukuaidi.js
+// pages/dingdan/dingdan.js
 Page({
 
   /**
    * 页面的初始数据
    */
-  data: {
-    baishi: '../../pages/index/images/baishi.jpg',
-     yunda: '../../pages/index/images/yunda.jpg',
-      zhongtong: '../../pages/index/images/zhongtong.jpg'
-
+  jiangan: function () {
+    wx.navigateTo({
+      url: '/pages/daiqukuaidi/jiangan/jiangan',
+    })
   },
+  wangjiang: function () {
+    wx.navigateTo({
+      url: '/pages/daiqukuaidi/wangjiang/wangjiang',
+    })
+  },
+  huaxi: function (options) {
+    wx.navigateTo({
+      url: '/pages/daiqukuaidi/huaxi/huaxi',
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

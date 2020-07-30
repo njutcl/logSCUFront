@@ -1,0 +1,14 @@
+<!--pages/question/questionnine/questionnine.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：强啊国健？</text>>
+        <text class="notify-title">每次看到樱桃就会想到幸福 可是幸福是生生不息又难以触及的远
+我总在意流云与星群的坐标，一朵花开谢的时日，原野与平川一望无垠是否平展。哪知你轻轻抬起眉梢，竟赐予我一生大好河山。
+我记得我为了应付高考背的十四行诗，里面有一句是说 那时人若问起你的美在何处， 哪里是你那少壮年华的宝藏， 你说，“在我这双深陷的眼眶里， 是贪婪的羞耻，和无益的颂扬。”而残暴的时间和腐朽商议， 要把你青春的白日变成暗淡黑夜， 为了爱你，我将和时间对抗， 它从你身上夺走的，我会重新嫁接</text>
+      </view>
+    </view>
+
+

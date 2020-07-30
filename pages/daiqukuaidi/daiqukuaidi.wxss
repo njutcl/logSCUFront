@@ -1,28 +1,26 @@
-/* pages/daiqukuaidi/daiqukuaidi.wxss */
+/* pages/dingdan/dingdan.wxss */
 .page{
-width:750rpx;
-  height:1000rpx;
-  /* background-color:red;   */
-  /* background-image:url("img/home/background.jpg") no-repeat; */
-  /* background-image:url("https://i0.hdslb.com/bfs/album/2e07a6b2a3bbf53e2b72ee331985968daead9865.jpg@104w_104h_1e_1c.jpg"); */
-  /* background-repeat: no-repeat;
-  background-size:100%,100%; */
+ width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
-.img1{
-   margin: 50rpx;
-    margin-left: 35rpx;
+.mine-bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
-.ziti1{
-  margin: 5rpx;
-  margin-left: 5rpx;
-  font-style:normal ;
-  font-weight:400 ;
-  font-size:15px; 
+
+.btn{
+  width: 50%;
+  margin-top: 80rpx;
+  background-color: #9ab5f0;
+  border: 1rpx;
 }
-.dibu{
-  margin: 5rpx;
-  margin-left: 5rpx;
-  font-style:normal ;
-  font-weight:400 ;
-  font-size:15px; 
+.btn .hover-class{
+  background:#FF6347;
 }
+
+

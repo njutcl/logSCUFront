@@ -1,0 +1,12 @@
+<!--pages/question/questionfour/questionfour.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：二手商品交易不满意能否退货？</text>
+        <text class="notify-title">　　在本程序上是不能直接退货的，您可以私下联系卖家进行退货。</text>
+      </view>
+    </view>
+
+

@@ -1,12 +1,33 @@
 // pages/dingdan/dingdan.js
 Page({
-
+  data: {
+    focus: false,
+    inputValue: ''
+  },
+  bindButtonTap: function () {
+    this.setData({
+      focus: true
+    })
+  },
   /**
    * 页面的初始数据
    */
-  data: {
-
+  fabudingdan: function () {
+    wx.navigateTo({
+      url: '/pages/dingdan/fabudingdan/fabudingdan',
+    })
   },
+  read: function () {
+    wx.navigateTo({
+      url: '/pages/dingdan/readdirection/readdirection',
+    })
+  },
+  statistics: function (options) {
+    wx.navigateTo({
+      url: '/pages/dingdan/statistics/statistics',
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

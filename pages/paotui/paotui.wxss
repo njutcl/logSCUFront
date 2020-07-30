@@ -1,0 +1,45 @@
+/* pages/paotui/paotui.wxss */
+.page{
+ width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.mine-bg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.btn{
+  width: 50%;
+  margin-top: 80rpx;
+  background-color: #9ab5f0;
+  border: 1rpx;
+}
+.btn .hover-class{
+  background: red;
+}
+.youhui{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+  background-color: rgba(255, 255, 255, 0.178);
+  height:100rpx;
+  font-size: 32rpx;
+  border-top:1px solid rgba(255, 255, 255, 0.178);
+  
+}
+.youhui>view{
+  display: flex;
+  align-items: center;
+}
+.active{
+  color: #DF2E26;
+  border-bottom:3px solid #DF2E26;
+}
+
+

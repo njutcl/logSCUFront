@@ -1,0 +1,12 @@
+<!--pages/question/questionthree/questionthree.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：如何提高信誉积分？</text>
+        <text class="notify-title">　　每完成一个订单，且获得交易人的五星好评，即可提高2点信誉积分。</text>
+      </view>
+    </view>
+
+

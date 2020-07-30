@@ -1,0 +1,42 @@
+<!--pages/question/question.wxml-->
+<view class="weui-cells weui-cells_after-title">
+
+  <navigator url="questionone/questionone" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">1.如何修改密码</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+
+  <navigator url="questiontwo/questiontwo" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">2.如何举报交易人</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+
+  <navigator url="questionthree/questionthree" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">3.如何提高信誉积分</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="questionfour/questionfour" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">4.二手商品交易不满意能否退货</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+    <navigator url="questionfive/questionfive" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">5.信誉积分有什么作用</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+<navigator url="questionsix/questionsix" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">6.如何修改订单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="questionseven/questionseven" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">7.如何支付赏金</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="questioneight/questioneight" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">8.订单时效</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="questionnine/questionnine" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">9.强啊国健</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  </view>

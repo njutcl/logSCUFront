@@ -1,0 +1,32 @@
+.page{
+  width: 80%;
+  margin-left: 10%;
+}
+.title{
+  text-indent: 1.8em;
+  text-align: left;
+  font-size: 0.6em;/*文字大小*/
+  color:black;/*文字颜色*/
+}
+.rule{
+  font-size: 0.6em;/*文字大小*/
+  color:black;/*文字颜色*/ 
+}
+.mid{
+  font-size: 0.6em;/*文字大小*/
+  background:lightgray;/*背景颜色*/
+  color:black;/*文字颜色*/ 
+}
+.word{
+  text-indent: 1.8em;
+  text-align: left;
+  font-size: 0.6em;/*文字大小*/
+}
+.text{
+  font-size: 0.6em;/*文字大小*/
+  background:lightpink;/*背景颜色*/
+  color:black;/*文字颜色*/
+}
+page {
+  background-color:ghostwhite;
+}

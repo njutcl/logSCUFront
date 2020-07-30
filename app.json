@@ -1,12 +1,127 @@
 {
   "pages": [
-    "pages/daiqukuaidi/daiqukuaidi",
-    "pages/ershuojiaoyi/ershuojiaoyi",
-    "pages/dingdan/dingdan",
-    "pages/zhuye/zhuye",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/test/test"
+    "pages/shouye/shouye",
+    "pages/dingdan/fabudingdan/fabudingdan",
+    "pages/dingdan/fabudingdan/daiqu/daiqu",
+    "pages/dingdan/dingdan",
+    "pages/paotui/keshundai/jiangan/jiangan",
+    "pages/paotui/keshundai/wangjiang/wangjiang",
+    "pages/paotui/keshundai/huaxi/huaxi",
+    "pages/paotui/xuyaoshundai/jiangan/jiangan",
+    "pages/paotui/xuyaoshundai/wangjiang/wangjiang",
+    "pages/paotui/xuyaoshundai/huaxi/huaxi",
+    "pages/dingdan/ershoujiaoyidingdan/detail/detail",
+    "pages/dingdan/daiqukuaididingdan/detail/detail",
+    "pages/dingdan/xuyaoshundaidingdan/detail/detail",
+    "pages/dingdan/keshundaidingdan/detail/detail",
+    "pages/dingdan/ershoujiaoyidingdan/comment/comment",
+    "pages/dingdan/daiqukuaididingdan/comment/comment",
+    "pages/dingdan/xuyaoshundaidingdan/comment/comment",
+    "pages/dingdan/keshundaidingdan/comment/comment",
+    "pages/dingdan/ershoujiaoyidingdan/getComment/getComment",
+    "pages/dingdan/daiqukuaididingdan/getComment/getComment",
+    "pages/dingdan/xuyaoshundaidingdan/getComment/getComment",
+    "pages/dingdan/keshundaidingdan/getComment/getComment",
+    "pages/dingdan/ershoujiaoyidingdan/ershoujiaoyidingdan",
+    "pages/dingdan/daiqukuaididingdan/daiqukuaididingdan",
+    "pages/dingdan/xuyaoshundaidingdan/xuyaoshundaidingdan",
+    "pages/dingdan/keshundaidingdan/keshundaidingdan",
+    "pages/daiqukuaidi/daiqukuaidi",
+    "pages/daiqukuaidi/jiangan/jiangan",
+    "pages/daiqukuaidi/wangjiang/wangjiang",
+    "pages/daiqukuaidi/huaxi/huaxi",
+    "pages/dingdan/fabudingdan/ershou/ershou",
+    "pages/dingdan/fabudingdan/xuyao/xuyao",
+    "pages/dingdan/fabudingdan/ke/ke",
+    "pages/paotui/paotui",
+    "pages/mine/mine",
+    "pages/paotui/xiangqing/xiangqing",
+    "pages/paotui/xiangqing/ownerdetai/ownerdetai",
+    "pages/paotui/xiangqing/ownerdetai/report/report",
+    "pages/paotui/xiangqing/orderreport/orderreport",
+    "pages/dingdan/xiangqing/xiangqing",
+    "pages/dingdan/xiangqing/ownerdetai/ownerdetai",
+    "pages/dingdan/xiangqing/ownerdetai/report/report",
+    "pages/dingdan/xiangqing/orderreport/orderreport",
+    "pages/daiqukuaidi/xiangqing/xiangqing",
+    "pages/daiqukuaidi/xiangqing/ownerdetai/ownerdetai",
+    "pages/daiqukuaidi/xiangqing/ownerdetai/report/report",
+    "pages/daiqukuaidi/xiangqing/orderreport/orderreport",
+    "pages/dingdan/readdirection/readdirection",
+    "pages/dingdan/statistics/statistics",
+    "pages/news/news",
+    "pages/question/question",
+    "pages/question/questionone/questionone",
+    "pages/question/questiontwo/questiontwo",
+    "pages/question/questionthree/questionthree",
+    "pages/question/questionfour/questionfour",
+    "pages/question/questionfive/questionfive",
+    "pages/question/questionsix/questionsix",
+    "pages/question/questionseven/questionseven",
+    "pages/question/questioneight/questioneight",
+    "pages/question/questionnine/questionnine"
+  ],
+  "subPackages": [
+    {
+      "root": "news",
+      "pages": [
+        "pages/comment/comment",
+        "pages/Systemmessage/Systemmessage",
+        "pages/comment/detail/detail",
+        "pages/comment/zhongcaodetail/zhongcaodetail",
+        "pages/comment/detail/dingdan/dingdan",
+        "pages/comment/zhongcaodetail/zhongcao/zhongcao",
+        "pages/recommendation/recommendation",
+        "pages/Systemmessage/dingdan/dingdan",
+        "pages/Systemmessage/system/system",
+        "pages/recommendation/daiqu/daiqu",
+        "pages/recommendation/paotui/paotui",
+        "pages/recommendation/second_hand/second_hand",
+        "pages/movie/movie",
+        "pages/recommendation/ownerdetai/ownerdetai"
+      ]
+    },
+    {
+      "root": "second-hand",
+      "pages": [
+        "pages/ershoujiaoyi",
+        "pages/fuzhuang/fuzhuang",
+        "pages/yueqiqicai/yueqiqicai",
+        "pages/wanou/wanou",
+        "pages/dianzichanpin/dianzichanpin",
+        "pages/youxichanpin/youxichanpin",
+        "pages/xuexie/xuexie",
+        "pages/shenghuoyongpin/shenghuoyongpin",
+        "pages/menpiao/menpiao",
+        "pages/shipin/shipin",
+        "pages/shuji/shuji",
+        "pages/meizhuang/meizhuang",
+        "pages/xiangqing/xiangqing",
+        "pages/xiangqing/ownerdetai/ownerdetai",
+        "pages/xiangqing/orderreport/orderreport",
+        "pages/xiangqing/ownerdetai/report/report"
+      ]
+    },
+    {
+      "root": "mines",
+      "pages": [
+        "pages/mine/jiaowu/jiaowu",
+        "pages/mine/address/address",
+        "pages/mine/myscore/myscore",
+        "pages/mine/reflection/reflection",
+        "pages/mine/black list/black list",
+        "pages/mine/tuijian/tuijian",
+        "pages/mine/setting/setting",
+        "pages/mine/setting/aboutus/aboutus",
+        "pages/mine/setting/secret/secret",
+        "pages/mine/setting/notice/notice",
+        "pages/mine/setting/vr/vr",
+        "pages/mine/setting/agreement/agreement",
+        "pages/mine/information/information",
+        "pages/mine/setting/vr2/vr2"
+      ]
+    }
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -19,25 +134,31 @@
     "borderStyle": "white",
     "color": "#515151",
     "selectedColor": "#1296db",
-  "list": [
-    {
-      "pagePath": "pages/daiqukuaidi/daiqukuaidi",
-      "iconPath": "/img/tabBar/index.png",
-      "selectedIconPath": "/img/tabBar/index1.png",
-      "text": "主页"
-    },
-    {
-      "pagePath": "pages/dingdan/dingdan",
-     "iconPath": "/img/tabBar/news.png",
-     "selectedIconPath": "/img/tabBar/news1.png",
-      "text": "订单管理"
-    },
-    {
-      "pagePath": "pages/ershuojiaoyi/ershuojiaoyi",
-      "iconPath": "/img/tabBar/mine.png",
-      "selectedIconPath": "/img/tabBar/mine1.png",
-      "text": "我的"
-    }
-  ]
+    "list": [
+      {
+        "pagePath": "pages/shouye/shouye",
+        "iconPath": "/img/tabBar/index.png",
+        "selectedIconPath": "/img/tabBar/index1.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/dingdan/dingdan",
+        "iconPath": "/img/tabBar/news.png",
+        "selectedIconPath": "/img/tabBar/news1.png",
+        "text": "订单管理"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "iconPath": "/img/tabBar/ring.png",
+        "selectedIconPath": "/img/tabBar/ring_focus.png",
+        "text": "通知"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "/img/tabBar/mine.png",
+        "selectedIconPath": "/img/tabBar/mine1.png",
+        "text": "我的"
+      }
+    ]
   }
 }

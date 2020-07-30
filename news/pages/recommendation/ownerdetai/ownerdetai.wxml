@@ -1,0 +1,27 @@
+<!--news/pages/recommendation/ownerdetai/ownerdetai.wxml-->
+<!--pages/paotui/xiangqing/ownerdetai/ownerdetai.wxml-->
+<image class='mine-bg' src='/img/mine/mine-bg.jpg'></image>
+<view class='content'>
+  <view class='nav'>
+   <view class='top'>
+ <image  class='top1' src='{{head}}' bindtap="ownerdetai"></image>
+   </view>
+ <view class='nickname'>
+      {{name}}
+    </view>
+  </view>
+  <view class='item'>
+      <text class='left'>学号：</text><text class='right'>{{myinfo.studentId}}</text>
+    </view>
+    <view class='item'>
+      <text class='left'>姓名：</text><text class='right'>{{myinfo.name}}</text>
+    </view>
+    <view class='item'>
+     <text class='left'> 信誉积分：</text><text class='right'>{{myinfo.rate}}</text>
+     </view>
+    <view class='item'>
+     <text class='left'> 联系电话：</text><text class='right'>{{myinfo.phone}}</text>
+    </view>
+
+</view>
+

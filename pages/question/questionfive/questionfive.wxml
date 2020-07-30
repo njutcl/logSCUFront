@@ -1,0 +1,12 @@
+<!--pages/question/questionfive/questionfive.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：信誉积分有什么作用？</text>
+        <text class="notify-title">　　在多人同时接单时，信誉积分高的用户能享有优先接单权。</text>
+      </view>
+    </view>
+
+

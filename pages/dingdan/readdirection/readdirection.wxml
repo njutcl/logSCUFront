@@ -1,0 +1,7 @@
+<!--pages/dingdan/readdirection/readdirection.wxml-->
+<view class="page">
+<view><button class="btn" bindtap="daiqukuaididingdan">代取快递</button></view>
+<view><button class="btn" bindtap="ershoujiaoyidingdan">二手交易</button></view>
+<view><button class="btn" bindtap="xuyaoshundaidingdan">需要顺带</button></view>
+<view><button class="btn" hover-class="hover-class" bindtap="keshundaidingdan">可顺带</button></view>
+</view>

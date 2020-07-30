@@ -1,0 +1,54 @@
+<view class='orderInfo-container'>
+  <image class='orderInfo-bg' src='/img/mine/mine-bg.jpg'></image>
+  <view class='orderInfo-frame'>
+    <view class='orderInfo-adress'>2313121232</view>
+    <image class='orderInfo-img' src="/img/order/4.png" ></image>
+    <view class='orderInfo-wxName' >想做代码小仙女</view>
+    <image class='star' src='/img/mine/blueStar.png'></image>
+
+    <view class='orderInfo-mainInfo'>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>校区</view>
+        <view class='orderInfo-mainPart2'>江安</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>快递类型</view>
+        <view class='orderInfo-mainPart2'>中通</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>送达位置</view>
+        <view class='orderInfo-mainPart2'>江安校区西园19舍</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>快递位置</view>
+        <view class='orderInfo-mainPart2'>江安西南门快递街</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>赏金</view>
+        <view class='orderInfo-mainPart2'>¥2323</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>物品重量</view>
+        <view class='orderInfo-mainPart2'>0.5千克</view>
+      </view>
+    </view>
+
+    <view class='orderInfo-secondInfo'>
+      <view class='orderInfo-secondPart'>
+        <view class='orderInfo-secondPart1'>创建时间</view>
+        <view class='orderInfo-secondPart2'>2019/10/16 22：58：00</view>
+      </view>
+      <view class='orderInfo-secondPart'>
+        <view class='orderInfo-secondPart1'>截至时间</view>
+        <view class='orderInfo-secondPart2'>2019/11/23 22：58：00</view>
+      </view>
+      <view class='orderInfo-secondPart'>
+        <view class='orderInfo-secondPart1'>订单编号</view>
+        <view class='orderInfo-secondPart2'>213</view>
+      </view>
+   
+      
+    </view>
+  </view>
+  
+</view>

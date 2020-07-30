@@ -1,0 +1,71 @@
+<!--pages/news/comment/zhongcaodetail/zhongcaodetail.wxml-->
+<!--pages/news/comment/detail/detail.wxml-->
+<!--question.wxml-->
+<view class="container">
+    <view class="question-wrp">
+        <view class="question-item">
+            <view class="que-tag">
+                <text class="tag">美食</text>
+            </view>
+            <view class="que-title">
+               推荐望江小北门外的日料店，食其家！
+            </view>
+            <view class="que-content">
+                想做代码小仙女
+            </view>
+            <view class="que-follow">
+                <view class="left">
+                    <view class="watch">
+                        <image src="/img/order/watch.png"></image>
+                        <text>1</text>
+                    </view>
+                    <view class="comment">
+                        <image src="/img/order/yellowStar.png"></image>
+                        <text>7</text>
+                    </view>
+                </view>
+                <view class="right" bindtap="zhongcao">
+                    种草详情
+                </view>
+            </view>
+        </view>
+     </view>
+    <view class="answer-feed">
+        <view  bindtap="bindItemTap" class="feed-item">
+            <view class="feed-source">
+                <a class="" bindTap="">
+                    <view class="avatar">
+                        <image src="/img/order/4.png"></image>
+                    </view>
+                    <text>Donahue Grey</text>
+                </a>
+            </view>
+            <view class="feed-content">
+                <view class="answer-body">
+                    <view>
+                        <text class="answer-txt">我也去过！强烈推荐温泉蛋！位置就在小北门出去，很好找，环境还行，简易日式风格，还有单人座！</text>
+                    </view>
+                    <view class="answer-actions">
+                        <view class="like dot">
+                            <a>30 赞同 </a>
+                        </view>
+                        <view class="comments dot">
+                            <a>1 评论 </a>
+                        </view>
+                        <view class="time">
+                            <a>1 个月前</a>
+                        </view>
+
+                    </view>
+                </view>
+            </view>
+        </view>
+       
+
+
+
+    </view>
+</view>
+
+
+

@@ -1,0 +1,12 @@
+<!--pages/question/questionseven/questionsix.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：如何支付赏金？</text>
+        <text class="notify-title">　　本平台不支持支付功能，所有赏金都不经过本平台，赏金支付由交易双方自行商议决定。</text>
+      </view>
+    </view>
+
+

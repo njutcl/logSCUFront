@@ -1,0 +1,40 @@
+/* pages/ershuojiaoyi/ershuojiaoyi.wxss */
+.page{
+width:750rpx;
+  height:1000rpx;
+  /* background-color:red;   */
+  /* background-image:url("img/home/background.jpg") no-repeat; */
+  /* background-image:url("https://i0.hdslb.com/bfs/album/2e07a6b2a3bbf53e2b72ee331985968daead9865.jpg@104w_104h_1e_1c.jpg"); */
+  /* background-repeat: no-repeat;
+  background-size:100%,100%; */
+}
+.main-memu-group{
+  display: flex;
+  flex-direction: row;
+}
+.main-memu-group .main-memu{
+  width: 20%;
+  height: 200rpx;
+  text-align: center;
+  margin-left: 4%;
+  margin-top: 50rpx;
+}
+.main-memu-group .main-memu image{
+  width: 90%;
+  height: 100rpx;
+}
+.ziti{
+  font-style:normal ;
+  font-weight:400 ;
+  font-size:15px; 
+  
+}
+.beijing{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+
+

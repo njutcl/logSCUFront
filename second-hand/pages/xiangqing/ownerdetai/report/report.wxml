@@ -1,0 +1,30 @@
+<!--second-hand/pages/xiangqing/ownerdetai/report/report.wxml-->
+<!--pages/paotui/xiangqing/ownerdetai/report/report.wxml-->
+
+<view class='send-container'>
+  <form bindsubmit="formSubmit">
+    <scroll-view scroll-y="{{true}}" style="height:{{scrollHeight}}px">
+      <view class='send-list send-listPart2'>
+        <view class='send-infomation'>
+          <view class='send-text send-text2'>举报理由</view>
+          <view class='send-line send-line2'></view>
+          <view class='send-input send-input2'>
+            <picker bindchange="bindPickerChange" value="{{express[index]}}" range="{{express}}" name='kuaidi'>
+              <view>
+                {{express[index]}}
+              </view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      <view class='send-largeList send-listPart6'>
+        <view class='send-textarea'>
+          <textarea name='hidden_info' placeholder="备注" maxlength='300'></textarea>
+        </view>
+      </view>
+    </scroll-view>
+    <button class='btn' bindtap="submit" >确认</button>
+  </form>
+</view>
+
+     

@@ -1,0 +1,70 @@
+
+<image class="beijing"  style="opacity:{{0.8}}"src="{{ers13}}"></image>
+<view class="page">
+<view class="main-memu-group">
+  <view class="main-memu" bindtap="toMeiZhuang">
+  <image src="{{ers1}}"></image>
+  <text class="ziti">美妆</text>
+  </view>
+
+  <view class="main-memu" bindtap="tofuzhuang">
+  <image src="{{ers2}}"></image>
+  <text class="ziti">服装</text>
+  </view>
+
+  <view class="main-memu" bindtap="toshipin">
+  <image src="{{ers3}}"></image>
+  <text class="ziti">饰品</text>
+  </view>
+
+  <view class="main-memu" bindtap="toyueqiqicai">
+  <image src="{{ers4}}"></image>
+  <text class="ziti">乐器及健身器材</text>
+  </view>
+</view>
+
+<view class="main-memu-group" bindtap="towanou">
+  <view class="main-memu">
+  <image src="{{ers5}}"></image>
+  <text class="ziti">玩偶</text>
+  </view>
+
+  <view class="main-memu" bindtap="todianzichanpin">
+  <image src="{{ers6}}"></image>
+  <text class="ziti">电子产品</text>
+  </view>
+
+  <view class="main-memu" bindtap="toyouxichanpin">
+  <image src="{{ers7}}"></image>
+  <text class="ziti">游戏产品</text>
+  </view>
+
+  <view class="main-memu" bindtap="toxuexie">
+  <image src="{{ers8}}"></image>
+  <text class="ziti">鞋靴</text>
+  </view>
+</view>
+
+<view class="main-memu-group" bindtap="toshenghuoyongpin">
+  <view class="main-memu">
+  <image src="{{ers9}}"></image>
+  <text class="ziti">生活用品</text>
+  </view>
+
+  <view class="main-memu" bindtap="tomenpiao">
+  <image src="{{ers10}}"></image>
+  <text class="ziti">门票课程转售</text>
+  </view>
+
+  <view class="main-memu" bindtap="tofood">
+  <image src="{{ers11}}"></image>
+  <text class="ziti">食品</text>
+  </view>
+
+  <view class="main-memu" bindtap="toshuji">
+  <image src="{{ers12}}"></image>
+  <text class="ziti">书籍</text>
+  </view>
+</view>
+
+</view>

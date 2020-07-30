@@ -1,0 +1,11 @@
+/* mines/pages/mine/tuijian/tuijian.wxss */
+.page{
+  width:750rpx;
+  height:1200rpx;
+}
+.background{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}

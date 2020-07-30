@@ -1,0 +1,25 @@
+<!--pages/paotui/paotui.wxml-->
+<!--pages/dingdan/dingdan.wxml-->
+<image class='mine-bg' src='/img/mine/ke.jpg'></image>
+<view class="page">
+  <view class="youhui">
+  <view class="{{_num==0?'active':''}}" data-index='0' bindtap='toggle'>
+    可顺带
+  </view>
+  <view class="{{_num==1?'active':''}}" data-index='1' bindtap='toggle'>
+    需要顺带
+  </view>
+</view>
+<swiper current="{{_num}}" class="swiper-box" duration="200"  style='min-height:645rpx'>
+<swiper-item>
+<view><button class="btn" bindtap="jiangan1">江安</button></view>
+<view><button class="btn" bindtap="wangjiang1">望江</button></view>
+<view><button class="btn" bindtap="huaxi1">华西</button></view>
+</swiper-item>
+<swiper-item>
+<view><button class="btn" bindtap="jiangan2">江安</button></view>
+<view><button class="btn" bindtap="wangjiang2">望江</button></view>
+<view><button class="btn" bindtap="huaxi2">华西</button></view>
+</swiper-item>
+</swiper>
+</view>

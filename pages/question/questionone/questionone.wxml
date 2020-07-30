@@ -1,0 +1,8 @@
+<!--pages/question/questionone/questionone.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：如何修改密码？</text>
+        <text class="notify-title">　　由于小程序账户与教务处直接了解，这边建议您直接登陆教务处修改密码，然后重新登陆小程序。</text>
+      </view>
+    </view>

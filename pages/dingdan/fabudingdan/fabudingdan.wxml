@@ -1,0 +1,7 @@
+<!--pages/dingdan/fabudingdan/fabudingdan.wxml-->
+<view class="page">
+<view><button class="btn" bindtap="daiqu">代取快递</button></view>
+<view><button class="btn" bindtap="ershou">二手交易</button></view>
+<view><button class="btn" bindtap="xuyao">需要顺带</button></view>
+<view><button class="btn" hover-class="hover-class" bindtap="ke">可顺带</button></view>
+</view>

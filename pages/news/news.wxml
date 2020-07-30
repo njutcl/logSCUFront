@@ -1,0 +1,10 @@
+<!--pages/news/news.wxml-->
+<image class='mine-bg' src='/img/mine/mine-bg.jpg'></image>
+<view class="page">
+ <view><button class="btn" bindtap="recommendation">推荐</button></view>
+<view><button class="btn" bindtap="comment">评论消息</button></view>
+<view><button class="btn" bindtap="Systemmessage">系统消息</button></view>
+<view><button class="btn" bindtap="movie">电影推荐</button></view>
+
+</view>
+

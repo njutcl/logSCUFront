@@ -1,0 +1,10 @@
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：如何举报交易人？</text>
+        <text class="notify-title">　　订单管理中找到相关订单，点击查看订单详情。点击发单人头像，可查看发单人详情，下方有红色文字“举报用户”。点击红色文字，进入举报用户界面，填写举报理由，点击确认即可举报该用户。</text>
+      </view>
+    </view>
+

@@ -1,0 +1,43 @@
+<navigator class="top" url="../../mines/pages/mine/information/information">
+
+  <view class="userinfo-avatar" > <open-data type="userAvatarUrl"  ></open-data></view>
+     <text class="userinfo-nickname" style='margin-left:200rpx;'>{{userInfo.nickName}}</text>
+     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+     <view style='margin-top:-26rpx; margin-left:-80rpx'>{{studentId}}</view>
+
+
+
+ 
+</navigator>
+
+
+<view class="weui-cells weui-cells_after-title">
+
+  <navigator url="../../mines/pages/mine/jiaowu/jiaowu" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">绑定学号</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+
+  <navigator url="../../mines/pages/mine/address/address" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我的地址</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator url="../../mines/pages/mine/myscore/myscore" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我的信誉积分</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+    <navigator url="../../mines/pages/mine/reflection/reflection" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我要反馈</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+    <navigator url="../../mines/pages/mine/black list/black list" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">我的黑名单</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+
+
+    <navigator url="../../mines/pages/mine/setting/setting" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">设置</view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator> 
+</view>

@@ -1,27 +1,10 @@
-<!--pages/daiqukuaidi/daiqukuaidi.wxml-->
+<!--pages/dingdan/dingdan.wxml-->
+<image class='mine-bg' src='/img/mine/mine-bg.jpg'></image>
 <view class="page">
-<view><image  style="width: 95%; height: 150px;margin:10px 2.5% 5px 2.5%; "src="{{baishi}}"></image></view>
-<view><text class="ziti1" space="emsp">赏金：¥1  百世代取快递\n</text>
- <text class="ziti1" > 地点：四川大学江安校区西南门快递街百世快递\n</text> 
- <text class="ziti1" >重量：1kg\n</text>
- <text class="ziti1">发布时间：2019年10月5日12：11\n</text>
- <text class="ziti1">截止时间：2019年10月5日19：00\n</text>
- </view>
- <view><image  style="width: 95%; height: 150px; margin:10px 2.5% 5px 2.5%;"src="{{yunda}}"></image></view>
-<view><text class="ziti1" space="emsp">赏金：¥2  韵达代取快递\n</text>
- <text class="ziti1" > 地点：四川大学江安校区西南门快递街韵达快递\n</text> 
- <text class="ziti1" >重量：1kg\n</text>
- <text class="ziti1">发布时间：2019年10月5日12：11\n</text>
- <text class="ziti1">截止时间：2019年10月5日19：00\n</text>
- </view>
- <view><image  style="width: 95%; height: 150px; margin:10px 2.5% 5px 2.5%;"src="{{zhongtong}}"></image></view>
-<view><text class="ziti1" space="emsp">赏金：¥3  中通代取快递\n</text>
- <text class="ziti1" > 地点：四川大学江安校区西南门快递街中通快递\n</text> 
- <text class="ziti1" >重量：1kg\n</text>
- <text class="ziti1">发布时间：2019年10月5日12：11\n</text>
- <text class="ziti1">截止时间：2019年10月5日19：00\n</text>
- </view>
- </view>
+ <view><button class="btn" bindtap="jiangan">江安</button></view>
+<view><button class="btn" bindtap="wangjiang">望江</button></view>
+<view><button class="btn" bindtap="huaxi">华西</button></view>
 
 
+</view>
 

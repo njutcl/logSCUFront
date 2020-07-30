@@ -1,0 +1,12 @@
+<!--pages/question/questioneight/questioneight.wxml-->
+<!--pages/question/questiontwo/questiontwo.wxml-->
+<image class='mine-bg' src='/img/question.jpg'></image>
+
+<view class="notify-item flex-wrp" >
+      <view class="notify-content flex-item">
+        <text class="notify-source">问题：订单时效？</text>
+        <text class="notify-title">　　跑腿和二手交易订单时效为发单者填写订单信息时所填写的截止时间。二手交易订单时效为一个月。</text>
+      </view>
+    </view>
+
+

@@ -1,0 +1,69 @@
+<!--pages/news/comment/zhongcaodetail/zhongcao/zhongcao.wxml-->
+<!--answer.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">推荐望江小北门外的日料店，食其家！</text>
+    </view>
+    <view class="answerer-wrp">
+        <view class="bg-half"></view>
+        <view class="answerer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="/img/order/4.png"></image>
+            </view>
+            <view class="answerer-info flex-item">
+                <text class="answerer-name">Joanne Kitty</text>
+                <text class="answerer-des">想做代码小仙女</text>
+            </view>
+            <view class="follow flex-item">
+                <text>了解用户</text>
+            </view>
+        </view>
+    </view>
+    <view class="answer-content">
+        <text>食其家，发源于日本。中国上海、江苏、浙江、北京、天津、广东等直营店。菜品分为牛丼、咖喱、丼系列、拉面、套餐、配菜等系列。
+
+            「食其家（すき家）」创立于日本横滨，以牛丼作为主力商品，在日本国内以及海外以直营店的方式扩展。食其家产品种类丰富，从家庭到个人辐射客层广，受到人们的广泛喜爱。店铺内配置有方便一人用餐的吧台坐席，也配置有方便团体/家庭客人用餐的桌椅坐席。多样丰富的菜品，适宜的价格和让客人感到感动的速度和良好的态度。
+
+        </text>
+        <image src="/img/shiqijia.jpg"></image>
+        <text>
+            价格
+适宜的价格提供商品。食其家是把在日本具有代表性的料理牛丼，用适宜的价格提供为重点，来让各种各样的客人体会到通过品尝牛丼而带来的乐趣。
+商品
+多种多样的菜单。根据客人的喜好，提供给单品、套餐、大小、各种配菜等多种多样的选择。让客人体验到选择的乐趣。
+服务
+给每位客人都提供尽善尽美的服务。
+食其家和一般的快餐店不同，不是自助式服务而是送餐式服务。客人开始来店的时候就笑脸相迎，在餐桌确认菜品后再点餐并提供商品。
+通过被良好培训的员工来给客人提供最好的服务。
+品质
+食其家使用的食材是在原产地就严选出的高品质的原料，通过工厂进行品质管理和彻底加工，每天都保持最新鲜状态下来配送到店铺，通过一整套流程来确保品质。
+安全・安心
+安全安心。客人的安全就是我们的责任。为了确保食品的安全性，按照严格的标准，在公司内部进行检查。工厂、店铺、员工的卫生状态也在每日确认。
+
+        </text>
+        <image src="/img/shiqijia.jpg"></image>
+    </view>
+
+    <view class="answer-footer flex-wrp">
+
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+
+                <view class="operation-btn flex-item">
+                    <image src="/img/order/yellowStar.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="/img/order/watch.png"></image>
+                    <text>302</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+
+

@@ -1,0 +1,33 @@
+<!--pages/news/Systemmessage/Systemmessage.wxml-->
+<!--pages/news/comment/comment.wxml-->
+<!--logs.wxml-->
+<view class="top-tab flex-wrp flex-tab">
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab">
+    {{itemName}}
+  </view>
+</view>
+<scroll-view scroll-y="true" class="container notify withtab" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+  
+
+  <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
+     <!-- <view class="unread">
+      <text>0 条未读</text>
+      <image src="/img/news/search.png"></image>
+    </view> -->
+
+            <block wx:for="{{normalList}}" wx:for-item="item" wx:key="id">
+          <view class="notify-item flex-wrp" bindtap="getDetail"  data-index='{{index}}'>
+      <view class="avatar flex-item">
+        <image src="/img/order/feedback.png"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">系统消息{{item.id}}</text>
+        <text class="notify-title">{{item.title}}</text>
+           <text class="notify-title">{{item.createdTime}}</text>
+      </view>
+</view>
+            </block>
+</view>
+</scroll-view>
+
+

@@ -1,0 +1,12 @@
+<!--pages/notice/notice.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">通知设置</view>
+    </view>
+    <view class="tui-list-box">
+      <view class="tui-menu-list">
+      <text>允许logSCU发送通知：{{isChecked1}}</text>
+      <switch class="tui-fr" checked="{{isChecked1}}"bindchange="changeSwitch1"/>
+      </view>
+    </view>
+</view>

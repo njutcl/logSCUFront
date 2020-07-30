@@ -1,0 +1,33 @@
+<!--pages/news/Systemmessage/system/system.wxml-->
+<view class='orderInfo-container'>
+  <image class='orderInfo-bg' src='/img/mine/mine-bg.jpg'></image>
+  <view class='orderInfo-frame'>
+    <view class='orderInfo-adress'>订单</view>
+    <image class='orderInfo-img' src="/img/order/feedback.png" ></image>
+    <view class='orderInfo-wxName' >{{comment.id}}</view>
+    
+
+    <view class='orderInfo-mainInfo'>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>发单人打分</view>
+        <view class='orderInfo-mainPart2'>{{comment.owner_star}}</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>发单人评价</view>
+        <view class='orderInfo-mainPart2'>{{comment.owner_text}}</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>接单人打分</view>
+        <view class='orderInfo-mainPart2'>{{comment.lancer_star}}</view>
+      </view>
+      <view class='orderInfo-mainPart'>
+        <view class='orderInfo-mainPart1'>接单人打分</view>
+        <view class='orderInfo-mainPart2'>{{comment.lancer_text}}</view>
+      </view>
+ 
+    </view>
+
+  </view>
+  <button class='btn' bindtap="submit" >确认</button>
+</view>
+
